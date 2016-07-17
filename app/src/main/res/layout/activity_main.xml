@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pe.cibertec.dialogosandroid.MainActivity">
+
+    <Button
+        android:id="@+id/botonAbrirDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_AbrirDialog"
+        android:text="ABRIR DIALOG" />
+
+    <Button
+        android:id="@+id/botonAbrirDialogosCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_AbrirDialogosCustom"
+        android:text="ABRIR DIALOGOS CUSTOM" />
+
+    <Button
+        android:id="@+id/botonSeleccionarFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SeleccionarFecha"
+        android:text="SELECCIONAR FECHA" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha Seleccionada"/>
+
+    <Button
+        android:id="@+id/botonSeleccionarHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SeleccionarHora"
+        android:text="SELECCIONAR HORA" />
+
+    <TextView
+        android:id="@+id/txtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora Seleccionada"/>
+
+</LinearLayout>
